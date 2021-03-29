@@ -5,6 +5,3 @@ name = "rgit"
 version = "0.1.0"
 [dependencies]
 git2 = "*"
- definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
