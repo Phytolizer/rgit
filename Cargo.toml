@@ -1,0 +1,10 @@
+[package]
+authors = ["Kyle Coffey <kylecoffey1999@gmail.com>"]
+edition = "2018"
+name = "rgit"
+version = "0.1.0"
+[dependencies]
+git2 = "*"
+ definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
