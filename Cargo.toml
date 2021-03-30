@@ -4,6 +4,12 @@ edition = "2018"
 name = "rgit"
 version = "0.1.0"
 [dependencies]
+chrono = "*"
 clap = "*"
-git2 = "*"
 structopt = "*"
+thiserror = "*"
+
+[dependencies.git2]
+version = "*"
+path = "./git2-rs"
+features = ["vendored-openssl"]
